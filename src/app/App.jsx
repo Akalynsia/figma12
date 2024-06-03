@@ -13,14 +13,14 @@ const App = () => {
           </p>
         </div>
         <div className="w-full max-w-[650px] h-auto md:h-[52px] flex flex-col md:flex-row justify-between items-center bg-[rgba(233,240,254,1)] rounded-xl p-2 md:p-0">
-          <div className="w-[24px] h-[24px] md:w-[32px] md:h-[32px] mt-2 md:mt-0 md:ml-6">
+          <div className="w-[24px] h-[24px] md:w-[22px] md:h-[28px] mt-2 md:mt-0 md:ml-6">
             <img src="./folder.png" alt="folder" className="w-full h-full" />
           </div>
           <div className="flex mt-2 md:mt-0 mr-0 md:mr-4">
             <p className="font-[400] text-[16px] md:text-[22px] font-inter">
               No selected File -{" "}
             </p>
-            <div className="w-[16px] h-[16px] md:w-[22px] md:h-[22px] ml-2 md:ml-4">
+            <div className="w-[16px] h-[16px] md:w-[22px] md:h-[22px] ml-2 md:ml-4 md:mt-1">
               <img
                 src="./trashcan.png"
                 alt="trashcan"
